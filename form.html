@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+        <!--Form-->
+
+        <form>
+            <div>
+            <!--<div>enter FirstName</div>-->     <!--use either div or label tag.......div for nxtline..-->
+            <label>enter firstname</label>            <!--label for sameline-->
+            <input type="text" name="firstName">     
+            </div>
+
+            <div>
+                <!--when we type the name firsname is not visible if we use the placeholder....see output-->     
+                <label>enter firstname</label>            
+                <input type="text" name="firstName" placeholder="enter FirstName">     
+                </div>
+
+
+            <label>enter LastName</label>
+            <input type="text" name="lastName" placeholder="enter LastName">       <!--name is used to give to specify-->
+
+
+            <!--Email-->
+             <div>
+            <label>enter Email id</label>
+            <input type="Email" name="Email" placeholder="enter Email id"></div>  <!--input used to give user input-->
+             <div>                                                       <!--email is used a type tocreate email-->
+            <label>enter Password</label>                        
+            <input type="password" name="password" placeholder="enter password">              
+            </div>
+
+            <div>
+                <label>Select Gender</label>
+                <input type="radio">Male                 <!--Gender ....for selecting the one option-->
+                <input type="radio">Female              <!--rdio used for options-->
+                <input type="radio">Others                <!--in this we can select all the option-->
+            </div>
+
+            <div>
+                <label>Select Gender</label>                     
+                <input type="radio" name="gender">Male       <!--name="gender".....used to select only one option-->
+                <input type="radio" name="gender">Female        <!--we want select one option-->      
+                <input type="radio" name="gender">Others                
+            </div>
+
+            <div>
+                <!--city-->
+                <label>Select City</label>     <!--when we want select a particular city in multiple option use option tag-->
+                <select>
+                    <option>Banglore</option>
+                    <option>Hassan</option>
+                    <option>Mysore</option>
+                </select>
+            </div>
+
+            <div>
+                <!--date-->
+
+                <label>Date of Birth</label>              <!--for select the date we have to use type aas date-->
+                <input type="date" name="dateofbirth">
+            </div>
+
+
+            <!--how to create button.....use button tag-->
+            <div>
+                <button type="submit">Register</button>    
+                <button type="Reset">Reset</button> <!--reset used to ..if we enterwrong details if we want clear it use reset button-->
+            </div>
+<!-- when we fill all the detais and press the register the output will be in url at top
+     file:///C:/Users/admin/Desktop/html/form.html?firstName=&firstName=sv&lastName=vv&Email=bvccv%40gmail.com&password=66777&gender=on&dateofbirth=2023-07-04-->
+             
+
+     <div>
+        <button type="button">Register</button>    <!--if we use submit the enter values will be gone and output in url-->
+        <button type="Reset">Reset</button></div>   <!--if we give the button here the values are not gone-->
+        </form>
+
+    </body>
+    </html>
+
+
+
+    <!--select courses-->
+    <!--java,html,sql-->
+    <!--type checkbox-->
+    <!--add fields Address ,mobilenumber ,upload file-->
+
+    <!--create new github repository
+        username.github.io-public
+        Github pages->
